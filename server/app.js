@@ -4,18 +4,19 @@ const authRoutes = require("./routes/auth.routes");
 const userRoutes = require("./routes/user.routes");
 const buildingRoutes = require("./routes/building.routes");
 const roomRoutes = require("./routes/room.routes");
+const bookingRoutes = require("./routes/booking.routes");
 
 const app = express();
-app.use("/api/rooms", roomRoutes);
+
 app.use(cors());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/buildings", buildingRoutes);
-
-
-app.use(express.json());
-
-app.use(express.urlencoded({ extended: true }));
+app.use("/api/rooms", roomRoutes);
+app.use("/api/bookings", bookingRoutes);
 
 app.get("/", (req, res) => {
 
