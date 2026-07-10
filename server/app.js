@@ -18,6 +18,7 @@ app.use("/api/buildings", buildingRoutes);
 app.use("/api/rooms", roomRoutes);
 app.use("/api/bookings", bookingRoutes);
 
+
 app.get("/", (req, res) => {
 
     res.json({
