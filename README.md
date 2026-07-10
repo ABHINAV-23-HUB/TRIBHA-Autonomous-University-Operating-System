@@ -4,10 +4,10 @@
 **TRIBHA**
 
 ## Team Leader
-**Abhinav Chaurasia**
+**Anoop Tripathi**
 
-- **Email:** abhinavchurasia456@gmail.com
-- **Phone:** +91 9580273367
+- **Email:** anooptripathi047@gmail.com
+- **Phone:** +919369967232
 
 ## Team Size
 **3 Members**
@@ -42,7 +42,6 @@ The Autonomous University Operating System is a centralized platform designed to
 # Member Roles & Responsibilities
 
 ## Abhinav Chaurasia
-- Team Leadership
 - Full Stack Development
 - Project Planning
 - GitHub Repository Management
@@ -53,6 +52,7 @@ The Autonomous University Operating System is a centralized platform designed to
 - Responsive User Interface
 
 ## Anoop Tripathi
+- Team Leadership
 - Backend Development
 - Authentication & Authorization
 - API Development

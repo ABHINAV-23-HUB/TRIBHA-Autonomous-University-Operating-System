@@ -1,4 +1,5 @@
 const express = require("express");
+const eventRoutes=require("./routes/event.routes");
 const cors = require("cors");
 const authRoutes = require("./routes/auth.routes");
 const userRoutes = require("./routes/user.routes");
@@ -26,5 +27,5 @@ app.get("/", (req, res) => {
     });
 
 });
-
+app.use("/api/events",eventRoutes);
 module.exports = app;
