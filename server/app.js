@@ -3,9 +3,10 @@ const cors = require("cors");
 const authRoutes = require("./routes/auth.routes");
 const userRoutes = require("./routes/user.routes");
 const buildingRoutes = require("./routes/building.routes");
+const roomRoutes = require("./routes/room.routes");
 
 const app = express();
-
+app.use("/api/rooms", roomRoutes);
 app.use(cors());
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
