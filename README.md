@@ -1,79 +1,96 @@
+# The Autonomous University Operating System
 
+## Team Name
+**TRIBHA**
 
-    <h2>Team Name</h2>
-    <h1>TRIBHA</h1>
+## Team Leader
+**Abhinav Chaurasia**
 
-    <h2>Team Leader</h2>
-    <h3>Abhinav Chaurasia</h3>
+- **Email:** abhinavchurasia456@gmail.com
+- **Phone:** +91 9580273367
 
-    <h2>Team Leader Email</h2>
-    <h3>abhinavchurasia456@gmail.com</h3>
+## Team Size
+**3 Members**
 
-    <h2>Team Leader Phone Number</h2>
-    <h3>9580273367</h3>
+---
 
-    <h2>Team Size</h2>
-    <p>3 Members</p>
+# Problem Statement
 
-    <hr>
+**The Autonomous University Operating System**
 
-    <h2>Problem Statement</h2>
-    <h1>The Autonomous University Operating System</h1>
+---
 
-    <h2>Project Description</h2>
-    <p>
-An Autonomous University Operating System is a centralized platform that streamlines university operations through a digital ecosystem. Our project focuses on the Event Booking System, enabling students to discover, register for, and manage university events, while allowing administrators to create events, monitor registrations, and oversee bookings efficiently. The system enhances event management by providing a user-friendly interface, real-time updates, secure registration, and an organized dashboard for both students and administrators.
-    </p>
+# Project Description
 
-    <hr>
+The Autonomous University Operating System is a centralized platform designed to streamline university operations through a digital ecosystem. Our project focuses on the **Event Booking System**, enabling students to discover, register for, and manage university events. Administrators can create events, monitor registrations, and efficiently manage bookings. The system provides a user-friendly interface, real-time updates, secure authentication, and dedicated dashboards for both students and administrators.
 
-    <h2>Team Members</h2>
+---
 
-    <h3>Member 1</h3>
-    <h4>Name:Abhinav Chaurasia </h4>
-    <p>Role:Leader </p>
+# Team Members
 
-    <h3>Member 2</h3>
-    <p>Name:Ananya Shukla </p>
-    <p>Role: Frontend Developer </p>
+### 1. Abhinav Chaurasia
+**Role:** Team Leader & Full Stack Developer
 
-    <h3>Member 3</h3>
-    <p>Name:Anoop Tripathi </p>
-    <p>Role: Backend Developer </p>
+### 2. Ananya Shukla
+**Role:** Frontend Developer & UI/UX Designer
 
-    <hr>
+### 3. Anoop Tripathi
+**Role:** Backend Developer
 
-    <h2>Member Roles & Responsibilities</h2>
+---
 
-    <h3>Member 1</h3>
-    <ul>
-        <li>Leader</li>
-        <li>Full Stack Development</li>
-    </ul>
+# Member Roles & Responsibilities
 
-    <h3>Member 2</h3>
-    <ul>
-        <li>Frontend Development</li>
-        <li>UI/ UX Designer</li>
-    </ul>
+## Abhinav Chaurasia
+- Team Leadership
+- Full Stack Development
+- Project Planning
+- GitHub Repository Management
 
-    <h3>Member 3</h3>
-    <ul>
-        <li>Backend Development</li>
-        <li>AUTHENTICATION</li>
-    </ul>
+## Ananya Shukla
+- Frontend Development
+- UI/UX Design
+- Responsive User Interface
 
-    <hr>
+## Anoop Tripathi
+- Backend Development
+- Authentication & Authorization
+- API Development
+- Database Integration
 
-    <h2>Technical Skills</h2>
+---
 
-    <ul>
-        <li>Frontend:REACT</li>
-        <li>Backend:NODE.JS , EXPRESS.JS</li>
-        <li>Database:MONGODB</li>
-        <li>Programming Languages:JAVASCRPIT</li>
-        <li>Frameworks/Libraries:axios , nodemon , react , node ,express bycrpt </li>
-        <li>Tools: GitHub , VS Code ,thunder client or postman , mongodb atalas </li>
-        <li>Version Control: git</li>
-        <li>Deployment:netlify</li>
-    </ul>
+# Technical Skills
+
+### Frontend
+- React
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB Atlas
+
+### Programming Language
+- JavaScript
+
+### Frameworks & Libraries
+- React
+- Express.js
+- Axios
+- Nodemon
+- bcrypt
+
+### Tools
+- Git
+- GitHub
+- Visual Studio Code
+- Thunder Client / Postman
+- MongoDB Atlas
+
+### Version Control
+- Git
+
+### Deployment
+- Netlify
