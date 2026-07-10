@@ -104,5 +104,3 @@ The Autonomous University Operating System is a centralized platform designed to
 - 🎥 **PPT Explanation Video:**  
   [Watch Video](https://drive.google.com/file/d/1GdMfhFp9DxVxUX2X7yK3hIhLVOjRD9W4/view?usp=drivesdk)
 ```
-
-
