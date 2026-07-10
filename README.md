@@ -1,16 +1,4 @@
- <html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README</title>
-</head>
-<body>
 
-    <h1>Project README</h1>
-
-    <hr>
 
     <h2>Team Name</h2>
     <h1>TRIBHA</h1>
@@ -89,6 +77,3 @@ An Autonomous University Operating System is a centralized platform that streaml
         <li>Version Control: git</li>
         <li>Deployment:netlify</li>
     </ul>
-
-</body>
-</html>
