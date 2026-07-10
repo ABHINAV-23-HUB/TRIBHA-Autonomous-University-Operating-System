@@ -96,8 +96,6 @@ The Autonomous University Operating System is a centralized platform designed to
 - Netlify
 ---
 
----
-
 # Presentation
 
 - 📄 **Project Presentation (PPT):**  
