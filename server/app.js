@@ -26,7 +26,7 @@ app.use("/api/bookings", bookingRoutes);
 
 app.use("/api/registrations",registrationRoutes);
 app.use("/api/dashboard", dashboardRoutes);
-app.use("/api/reports", reportRoutes);
+app.use("/api/reports", reportRoutes); 
 
 
 
