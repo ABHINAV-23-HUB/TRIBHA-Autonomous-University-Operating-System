@@ -6,7 +6,7 @@ const userRoutes = require("./routes/user.routes");
 const buildingRoutes = require("./routes/building.routes");
 const roomRoutes = require("./routes/room.routes");
 const bookingRoutes = require("./routes/booking.routes");
-
+const eventRoutes=require("./routes/event.routes");
 const registrationRoutes=require("./routes/registration.routes");
 const dashboardRoutes = require("./routes/dashboard.routes");
 const reportRoutes = require("./routes/report.routes");
@@ -23,7 +23,7 @@ app.use("/api/users", userRoutes);
 app.use("/api/buildings", buildingRoutes);
 app.use("/api/rooms", roomRoutes);
 app.use("/api/bookings", bookingRoutes);
-
+app.use("/api/events",eventRoutes);
 app.use("/api/registrations",registrationRoutes);
 app.use("/api/dashboard", dashboardRoutes);
 app.use("/api/reports", reportRoutes); 
