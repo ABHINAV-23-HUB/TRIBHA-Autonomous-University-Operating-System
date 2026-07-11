@@ -12,6 +12,7 @@ import FacultyDashboard from "./pages/faculty/Dashboard";
 import StudentDashboard from "./pages/student/Dashboard";
 import Buildings from "./pages/admin/Buildings";
 import Rooms from "./pages/admin/Rooms";
+import Users from "./pages/admin/Users";
 
 function App() {
 
@@ -61,7 +62,7 @@ function App() {
 export default App;
                   
 
-            <><Route
+            <><><Route
     path="/admin"
     element={<ProtectedRoute role="Admin">
         <Dashboard />
@@ -73,4 +74,8 @@ export default App;
         path="/admin/rooms"
         element={<ProtectedRoute role="Admin">
             <Rooms />
+        </ProtectedRoute>} /></><Route
+        path="/admin/users"
+        element={<ProtectedRoute role="Admin">
+            <Users />
         </ProtectedRoute>} /></>
