@@ -6,8 +6,8 @@
 ## Team Leader
 **Abhinav Chaurasia**
 
-- **Email:** abhinavchurasia456@gmail.com
-- **Phone:** +91 9580273367
+- **Email:** abhinavchaurasia456@gmail.com
+- **Phone:** +919580273367
 
 ## Team Size
 **3 Members**
