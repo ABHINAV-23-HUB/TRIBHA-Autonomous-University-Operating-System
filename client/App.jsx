@@ -1,18 +1,3 @@
-import { Routes, Route } from "react-router-dom";
-
-function App(){
-
-    return(
-
-        <Routes>
-
-            <Route path="/" element={<h1>Campus Event Management</h1>} />
-
-        </Routes>
-
-    )
-
-}
 
 export default App;
 import { Routes, Route } from "react-router-dom";
@@ -25,6 +10,8 @@ import ProtectedRoute from "./routes/ProtectedRoute";
 import AdminDashboard from "./pages/admin/Dashboard";
 import FacultyDashboard from "./pages/faculty/Dashboard";
 import StudentDashboard from "./pages/student/Dashboard";
+import Buildings from "./pages/admin/Buildings";
+import Rooms from "./pages/admin/Rooms";
 
 function App() {
 
@@ -69,14 +56,21 @@ function App() {
 
     );
 
-}
+}      
 
 export default App;
-<Route
+                  
+
+            <><Route
     path="/admin"
-    element={
-        <ProtectedRoute role="Admin">
-            <Dashboard />
-        </ProtectedRoute>
-    }
-/>
+    element={<ProtectedRoute role="Admin">
+        <Dashboard />
+    </ProtectedRoute>} /><Route
+        path="/admin/buildings"
+        element={<ProtectedRoute role="Admin">
+            <Buildings />
+        </ProtectedRoute>} /><Route
+        path="/admin/rooms"
+        element={<ProtectedRoute role="Admin">
+            <Rooms />
+        </ProtectedRoute>} /></>
