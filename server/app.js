@@ -9,6 +9,7 @@ const bookingRoutes = require("./routes/booking.routes");
 
 const registrationRoutes=require("./routes/registration.routes");
 const dashboardRoutes = require("./routes/dashboard.routes");
+const reportRoutes = require("./routes/report.routes");
 
 
 const app = express();
@@ -25,6 +26,8 @@ app.use("/api/bookings", bookingRoutes);
 
 app.use("/api/registrations",registrationRoutes);
 app.use("/api/dashboard", dashboardRoutes);
+app.use("/api/reports", reportRoutes);
+
 
 
 
